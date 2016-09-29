@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form>
+    <input type="file" multiple id="uploader" onchange="handleFiles(this.files)">
+
+    <div id="previewContainer">
+    </div>
+
+    <input type="button" value="Save" onclick="sendData()"/>
+</form>
+
+<script>
+    function handleFiles(files) {
+        for (var i = 0; i < files.length; i++) {
+
+            var file = files[i];
+            var imageType = /^image\//;
+
+            if (!imageType.test(file.type)) {
+                continue;
+            }
+
+            var img = document.createElement("img");
+            img.classList.add("obj");
+            img.style = "display:none";
+            img.file = file;
+            //$("#previewContainer").append(img); // Assuming that "preview" is the div output where the content will be displayed.
+
+            var reader = new FileReader();
+            reader.onload = (function (aImg) {
+                return function (e) {
+                    aImg.src = e.target.result;
+                    resizePicture(aImg);
+                };
+            })(img);
+            reader.readAsDataURL(file);
+
+
+        }
+    }
+
+    function resizePicture(img) {
+        var canvas = document.createElement("canvas");
+
+        var MAX_WIDTH = 800;
+        var MAX_HEIGHT = 600;
+        var width = img.width;
+        var height = img.height;
+
+        if (width > height) {
+            if (width > MAX_WIDTH) {
+                height *= MAX_WIDTH / width;
+                width = MAX_WIDTH;
+            }
+        } else {
+            if (height > MAX_HEIGHT) {
+                width *= MAX_HEIGHT / height;
+                height = MAX_HEIGHT;
+            }
+        }
+        canvas.width = width;
+        canvas.height = height;
+        var ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0, width, height);
+        //ctx.putImageData(imgData, 0, 0);
+
+        $("#previewContainer").append(canvas);
+
+        //$("#data").val(canvas.toDataURL("image/png"));
+    }
+
+    function dataURItoBlob(dataURI) {
+        // convert base64/URLEncoded data component to raw binary data held in a string
+        var byteString;
+        if (dataURI.split(',')[0].indexOf('base64') >= 0)
+            byteString = atob(dataURI.split(',')[1]);
+        else
+            byteString = unescape(dataURI.split(',')[1]);
+
+        // separate out the mime component
+        var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0];
+
+        // write the bytes of the string to a typed array
+        var ia = new Uint8Array(byteString.length);
+        for (var i = 0; i < byteString.length; i++) {
+            ia[i] = byteString.charCodeAt(i);
+        }
+
+        return new Blob([ia], { type: mimeString });
+    }
+
+    function sendData() {
+        debugger;
+        var dataURL = document.getElementById("previewContainer").children[0].toDataURL('image/jpeg', 0.9);
+        //var blob = dataURItoBlob(dataURL);
+
+        $.post('/Images/Create',
+            {
+                description: 'Photo 1',
+                image: dataURL
+            },
+        function (data) {
+            alert(data);
+        });
+
+    }
+</script>
