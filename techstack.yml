@@ -1,7 +1,8 @@
 repo_name: sGambolati/ResizeImageClientSize
 report_id: 6c4f4230c3f37ba89f03e825e29c4ca1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:22:45+00:00'
+timestamp: '2024-01-04T15:05:50+00:00'
 requested_by: sGambolati
 provider: github
 branch: master
@@ -17,8 +18,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: TestUploadImages/TestUploadImages.csproj
-  detection_source: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/TestUploadImages.csproj
+  detection_source: TestUploadImages/TestUploadImages.csproj
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
 - name: C#
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -39,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -49,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -60,6 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -74,7 +79,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -87,6 +92,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -98,6 +104,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -107,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -119,6 +127,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages.sln
   detection_source: TestUploadImages.sln
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -132,7 +141,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -146,7 +155,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13151/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -161,7 +170,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -175,7 +184,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -190,7 +199,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12966/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -205,7 +214,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -218,7 +227,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13106/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -232,7 +241,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13170/default_81ac985912284073db895b0d26abf3657532a164.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -246,7 +255,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -260,7 +269,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13143/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -274,13 +283,19 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/nuget/image.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
     cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
     cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
     detected_date: Jun 23
     severity: high
@@ -295,7 +310,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13229/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -309,7 +324,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13115/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
@@ -324,7 +339,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13119/default_f0c74e534077001eb65a152707758ce46a2dc970.png
-  detection_source_url: TestUploadImages/packages.config
+  detection_source_url: https://github.com/sGambolati/ResizeImageClientSize/blob/master/TestUploadImages/packages.config
   detection_source: TestUploadImages/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-09-29 20:39:18.000000000 Z
