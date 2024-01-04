@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 sGambolati/ResizeImageClientSize is built on the following main stack:
+
 - [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - [C#](http://csharp.net) – Languages
 - [jQuery](http://jquery.com/) – Javascript UI Libraries
@@ -12,11 +13,13 @@ sGambolati/ResizeImageClientSize is built on the following main stack:
 - [ASP.NET](https://www.asp.net/) – Languages
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 sGambolati/ResizeImageClientSize is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png' alt='C#'/> [C#](http://csharp.net) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
@@ -27,14 +30,15 @@ sGambolati/ResizeImageClientSize is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png' alt='ASP.NET'/> [ASP.NET](https://www.asp.net/) – Languages
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [sGambolati/ResizeImageClientSize](https://github.com/sGambolati/ResizeImageClientSize)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|24<br/>Tools used|11/09/23 <br/>Report generated|
+|24<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -162,7 +166,7 @@ Full tech stack [here](/techstack.md)
 |[Microsoft.Net.Compilers](https://www.nuget.org/Microsoft.Net.Compilers)|v1.0.0|09/29/16|Sebastian Gambolati |MIT|N/A|
 |[Microsoft.Web.Infrastructure](https://www.nuget.org/Microsoft.Web.Infrastructure)|v1.0.0|09/29/16|Sebastian Gambolati |N/A|N/A|
 |[Microsoft.jQuery.Unobtrusive.Validation](https://www.nuget.org/Microsoft.jQuery.Unobtrusive.Validation)|v3.2.3|09/29/16|Sebastian Gambolati |Apache-2.0|N/A|
-|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v6.0.4|09/29/16|Sebastian Gambolati |MIT|[](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
+|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v6.0.4|09/29/16|Sebastian Gambolati |MIT|[](https://github.com/advisories/GHSA-8rfx-6mr3-5jh3) (High)<br/>[CVE-2024-21907](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
 |[Respond](https://www.nuget.org/Respond)|v1.2.0|09/29/16|Sebastian Gambolati |MIT|N/A|
 |[WebGrease](https://www.nuget.org/WebGrease)|v1.5.2|09/29/16|Sebastian Gambolati |Apache-2.0|N/A|
 |[jQuery.Validation](https://www.nuget.org/jQuery.Validation)|v1.11.1|09/29/16|Sebastian Gambolati |MIT|[CVE-2021-21252](https://github.com/advisories/GHSA-jxwx-85vp-gvwm) (High)<br/>[CVE-2021-43306](https://github.com/advisories/GHSA-j9m2-h2pv-wvph) (Low)|
@@ -170,4 +174,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
